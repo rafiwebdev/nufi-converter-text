@@ -1,0 +1,18 @@
+body{
+    background-image: url(../img/PicsArt_09-16-05.22.07.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-custom{
+    background-color: #fff;
+}
+.h1-c{
+    color: #fff;
+}
+.btn-shift{
+    background-color: #fff;
+}
+.col{
+    color: #fff;
+}

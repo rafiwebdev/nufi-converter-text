@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Nufi </title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">		
+	</head>
+
+	<body>
+		<header class="container text-center">
+			<h1 class="h1-c">Nufi Code Converter</h1>
+		</header>
+		<div>
+			<div class="d-flex justify-content-center align-items-center">
+				<button id="toggle" class="btn btn-outline-primary text-center btn-shift" onclick="toggle()">Decrypt Message</button>
+			</div>			
+		</div>		
+		
+		<hr>
+		
+		<div class="container d-flex justify-content-around align-items-center">
+		
+			<div>
+				<b class="col">Input</b><br>
+				<textarea id="input" cols="50" rows="20" placeholder="Write your message"></textarea>
+			</div>
+			
+			<button id="convert" class="btn btn-md px-3 btn-outline-dark btn-custom" onclick="text2morse()">Convert to Nufi Code</button>
+			
+			<div>
+				<b class="col">Output</b><br>
+				<textarea id="output" cols="50" rows="20"></textarea>
+			</div>
+		
+		</div>
+		
+		<script src="/js/main.js"></script>
+	
+	</body>
+</html>
